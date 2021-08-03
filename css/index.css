@@ -1,0 +1,203 @@
+header 
+{
+    width: 100%;
+    height: 40;
+    position:static;
+    left: 50;
+    
+    
+    background-color: rgb(57, 30, 212);
+    /* padding: 5px; */
+}
+h1{
+    color:blue
+}
+
+p{
+    font-size:larger;
+    text-align: justify;
+    
+}
+a
+{ 
+    width: 25%; 
+    font-size: 17px;
+    padding: 12px;
+    text-align: center;
+  text-decoration: none;
+  color: rgb(253, 252, 252);
+  
+}
+
+.homeimg
+{ 
+    position: unset;
+    height: 400;
+    width: 100%;
+    /* opacity: 0.5; */
+}
+
+.searchbox
+{
+    position: relative;
+    top: 0.5;
+    left: 35.5%;
+    height: 40;
+    width: 75;
+}
+.searchtextbox
+{
+   position: relative;
+    top: 0.5;
+    left: 35.5%;
+    height: 40;
+    width: 250;
+}
+
+.active
+{
+    background-color: cornflowerblue;
+}
+.d3
+{
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    
+    font-size: 50;
+    font-family:'cursive','Times New Roman', Times, serif;
+   
+    color: rgba(8, 8, 8, 0.925);
+}
+.contactushead
+{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    
+    font-size: 50;
+    font-family:'cursive','Times New Roman', Times, serif;
+   
+    color: rgba(8, 8, 8, 0.925);
+}
+.contactusbody
+{
+    position: absolute;
+    left: 1%;
+    top: 72%;
+    
+    font-size: 30;
+    font-family:'cursive','Times New Roman', Times, serif;
+   
+    color: rgba(8, 8, 8, 0.925);
+}
+.homebdimg
+{ 
+    position: unset;
+    height: 100%;
+    width: 101.2%;
+    opacity: 0.3;
+}
+.contactusinfo
+{
+    font-size:xx-large;
+    text-align: center;
+}
+.imagequote
+{
+   
+   position: absolute;
+    top: 47%;
+    left: 15%;
+   
+    font-size: 30;
+    font-family:'cursive','Times New Roman', Times, serif;
+   
+    color: rgba(253, 250, 250, 0.925);
+}
+.loginpage {
+    border-radius: 50px;
+    background-color: rgba(148, 194, 247, 0.884);
+    width: 200px;
+    height: 200px;
+    border: 10px solid rgba(0, 0, 0, 0.507);
+    padding: 50px;
+   margin-left: 550;
+    margin-top:100;
+    
+  } 
+  .side
+  {
+      position: fixed;
+      right: -140px;
+      top: 0px;
+      width: 140px;
+      height: 100%;
+      background-color: cornflowerblue;
+      z-index: 1;
+      transition: 0.5s;
+  }
+.related{
+    border-radius: 25px;
+    background-color: rgba(148, 194, 247, 0.884);
+    width: 900px;
+    height: 600px;
+    border: 10px solid rgba(0, 0, 0, 0.507);
+    padding: 50px;
+   margin-left: 170;
+    margin-top:20;
+
+}
+.tourright
+{
+    height: 200%;
+    width: 25%;
+    position: initial;
+    top: 20;
+    /* background: #000; */
+}
+.tourcenter
+{
+    font-size:large;
+       height: 100%;
+       width: 73%;
+       position: absolute;
+       top:62;
+       right:10;
+        /* background: blueviolet; */
+}
+.homecontent
+{
+    font-size:large;
+       height: 100%;
+       width: 73%;
+       position: absolute;
+       top:70%;
+       right:10;
+        /* background: blueviolet; */
+}
+  #fname,#lname
+  {
+    border-radius: 25px;
+    width: 230;
+    height:40 ;
+    
+  }
+.booktour
+{
+    height: 80%;
+    width: 25%;
+    position: initial;
+    top: 20;
+    /* background-color: blue;   */
+}
+.bookingform
+{
+    height: 80%;
+    width: 70%; 
+    background-color: rgba(20, 20, 20, 0.733);
+    position: relative;
+    left: 15%;
+}
+
+    
