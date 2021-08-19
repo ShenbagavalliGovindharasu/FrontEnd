@@ -30,6 +30,9 @@ This browser application is about a **Tourism visiting places** and it allows us
 ![screencapture-file-C-Users-91998-OneDrive-Desktop-FrontEnd-contactus-contact-html-2021-08-19-23_43_02](https://user-images.githubusercontent.com/88303324/130126034-3c16cf62-1d0f-43e0-a544-c3c980c0da77.png)
 -career
 ![careerfix](https://user-images.githubusercontent.com/88303324/130126085-cd8eb9d2-61fa-46b1-ad40-ed9e4b746df3.png)
+-Register
+![screencapture-file-C-Users-91998-OneDrive-Desktop-FrontEnd-register-register-html-2021-08-20-00_18_35](https://user-images.githubusercontent.com/88303324/130127089-b986a435-2e3f-426c-9bbe-5853a56ff63e.png)
+
 -Login
 ![screencapture-file-C-Users-91998-OneDrive-Desktop-FrontEnd-login-login-html-2021-08-19-23_49_15](https://user-images.githubusercontent.com/88303324/130126060-daf7703f-79d7-41c9-a854-3dbaea92b438.png)
 Signup
