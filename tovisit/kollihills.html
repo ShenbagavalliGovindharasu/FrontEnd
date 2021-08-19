@@ -1,0 +1,87 @@
+<html>
+    <head>
+    <title>Details</title>
+    <link rel="stylesheet" href="C:\Users\91998\OneDrive\Desktop\FrontEnd\css\index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+ <style>
+     li{
+         font-size: larger;
+     }
+     .homeimg
+{ 
+    padding-top: 1%;
+    padding-left: 10%;
+    position: unset;
+    height: 400;
+    width: 80%;
+    /* opacity: 0.5; */
+}
+ </style>
+    </head>
+    <body>
+       <header>
+               
+        <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\home\home.html">Home</a>&nbsp &nbsp
+             
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\tovisit\tovisit.html">To Visit</a>&nbsp &nbsp
+           
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\contactus\contact.html">Contact us</a>&nbsp &nbsp
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\carreer\career.html">Career</a>
+            <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\login\login.html">Signin</a>&nbsp &nbsp
+            <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\signup\signup.html">Signup</a>&nbsp &nbsp
+             
+          <input type="text" placeholder="Search" class="searchtextbox"><button type="submit" class="searchbox">search</button>
+        </header>
+        <div class="d2">
+              
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\kolli.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\kolli2.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\kolli3.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\kolli2.jpg">
+              
+        </div>
+              <div class=contentmanali>
+                  <h2>Kolli Hills</h2>
+                <p>Kolli Hills is one of the beautiful places, situated in Namakkal District of the state of Tamil Nadu. This beautiful location is referred to as the Kolli Malai, and it means the ‘Mountains of Death.' The hills are over almost 1000 to 1300 meters in height that cover more than 280 sq. Km. You will get nearly 70 hairpin bends, which take the tourists to the top of the hill. Furthermore, the hills are actually the part of discontinuous Eastern Ghats.
+
+                    The early Hindu literature talks about the actual existence of the Kolli Pavai ghost on the top of these hills and in this way, they have earned the ultimate destination this name. This image or spirit used to tempt the wayfarers and kill them. So, if you are a travel buff, you would surely love to roam around the entire place to explore the beauty of nature as well. </p>
+              <h2>Places</h2>
+                    <li>Arapaleeswarar Temple:Along with a rich historical and cultural significance, which dates back to as long as the 1st century CE, the Arapaleeswarar Temple was built by the Valvil Ori. The place is dedicated to Lord Shiva and an essential part of Kolli Hills sightseeing, the temple stands as the witness to the excellent Dravidian style of architecture till today.
+                        
+                        
+                    </li>
+                   <li> Botanical Garden:This is situated at a distance of only 3 km from Semmedu. The Botanical is one of the paramount places to visit in Kolli Hills. It features a beautiful rose garden, eco-friendly cottages, and a majestic viewpoint and also a Children's Park. This is an absolute must visit.</li>
+                    
+                    <li>ATampcol Medicinal Farm:The place is much famed for being the home to the medicinal plants in abundance. This is a beautiful place to roam around as well. If you are a travel buff, you will surely love to wander around the area for sure.
+                        
+                        
+                    </li>
+            </div>
+
+        
+          <script>
+             var indexValue = 0;
+             function slideShow()
+            {
+              setTimeout(slideShow, 2500);
+              var x;
+              const img = document.querySelectorAll("img");
+              for(x = 0; x < img.length; x++)
+              {
+                img[x].style.display = "none";
+              }
+              indexValue++;
+              if(indexValue > img.length){indexValue = 1}
+              img[indexValue -1].style.display = "block";
+            }
+            slideShow();
+        
+          </script>
+      
+      
+  
+    </body>
+</html>
+

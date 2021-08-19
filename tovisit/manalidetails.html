@@ -1,0 +1,84 @@
+<html>
+    <head>
+    <title>Details</title>
+    <link rel="stylesheet" href="C:\Users\91998\OneDrive\Desktop\FrontEnd\css\index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+ <style>
+     li{
+         font-size: larger;
+     }
+     
+     .homeimg
+{ 
+    padding-top: 1%;
+    padding-left: 10%;
+    position: unset;
+    height: 400;
+    width: 80%;
+    /* opacity: 0.5; */
+}
+ </style>
+    </head>
+    <body>
+       <header>
+               
+        <a class="active" href="C:\Users\91998\OneDrive\Desktop\FrontEnd\home\home.html">Home</a>&nbsp &nbsp
+             
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\tovisit\tovisit.html">To Visit</a>&nbsp &nbsp
+           
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\contactus\contact.html">Contact us</a>&nbsp &nbsp
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\carreer\career.html">Career</a>
+            <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\login\login.html">Signin</a>&nbsp &nbsp
+            <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\signup\signup.html">Signup</a>&nbsp &nbsp
+             
+          <input type="text" placeholder="Search" class="searchtextbox"><button type="submit" class="searchbox">search</button>
+        </header>
+        <div class="d2">
+              
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\manali1.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\manali2.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\manali3.webp">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\manali2.jpg">
+              
+        </div>
+              <div class=contentmanali>
+                  <h2>Manali</h2>
+                <p>Situated near the end of valley, Manali is one of the most attractive tourist spot not only of Himachal Pradesh, but of International fame also. Manali is synonymous streams and birdsong, forests and orchards and grandees of snow-capped mountains.
+
+                    Manali is the real starting point of an ancient trade route which crosses the Rohtang and Baralacha passes, and runs via Lahul and Ladakh to Kashmir while divergent road connects it with Spiti. Now the motor link have been provided up to Leh in Jammu & Kashmir, Pangi valley in Chamba and Kaza of Lahul & Spiti. There are regular bus services to these places from Manali during summer season. It is situated at a distance of 45 kms from Kullu.
+                    
+                    There is an interesting legend about Manali which goes to say that Manu, the author of ’Manu Samhita’, after the great deluge first stepped on the earth from the celestial boat at a place in this land. The particular spot where he established his abode was the present Manali which is regarded as the changed name of ’Manu-Alaya’, the abode of Manu. The temple dedicated to Manu is still existing in the Manali village.</p>
+              <h2>Places</h2>
+                    <li>Hadimba Temple: It is an ancient cave temple dedicated to Hidimbi Devi, who was a character in the Indian epic, Mahābhārata. The temple is surrounded by a beautiful cedar forest (Dhungri Van Vihar) at the foot of the Himālayas. The sanctuary is built over a huge rock jutting out of the ground, which was worshipped as an image of the deity. The structure was built in the year 1553. If you're walking to the temple you can take a short cut up the hill through the woods instead of walking along the road. Look for two signs side by side with vertical Hindi writing on them (blue on the left, green on the right).</li>
+                   <li> Maa Sharvari Temple This temple is represented as KULDEVI of the kings of Kullu in early times and is worshipped as a manifestation of Durga, and image of the goddess is also enshrined here. The divinity is popularly worshipped throughout the region during the festivals and the Goddess is transported to Kullu to visit the Lord Raghunathji during Dussehra festival. This temple is on the top of above the Shaminallah village, which is around 5km from Manali, accross the Beas river on the left bank on the way to Naggar Casttle</li>
+                <li>Kalath Hot Water SpringsAround 6.5 Km downstream from Manali,natural sulfurous water flows from the bowels of earth.public bath areas and private bath areas are available."Asia Sulphur hot water spring" is a small hotel where private bathroom can be hired on per-person basis(c. ₹100/person). These are simple bathrooms but give all the privacy needed by a couple or family.It can be easily spotted on your way to Manali just before the "Green Tax barrier".</li>
+                
+            </div>
+
+        
+          <script>
+             var indexValue = 0;
+             function slideShow()
+            {
+              setTimeout(slideShow, 2500);
+              var x;
+              const img = document.querySelectorAll("img");
+              for(x = 0; x < img.length; x++)
+              {
+                img[x].style.display = "none";
+              }
+              indexValue++;
+              if(indexValue > img.length){indexValue = 1}
+              img[indexValue -1].style.display = "block";
+            }
+            slideShow();
+        
+          </script>
+      
+      
+  
+    </body>
+</html>
+

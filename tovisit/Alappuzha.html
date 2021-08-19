@@ -1,0 +1,82 @@
+<html>
+    <head>
+    <title>Details</title>
+    <link rel="stylesheet" href="C:\Users\91998\OneDrive\Desktop\FrontEnd\css\index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+ <style>
+     li{
+         font-size: larger;
+     }
+     .homeimg
+{ 
+    padding-top: 1%;
+    padding-left: 10%;
+    position: unset;
+    height: 400;
+    width: 80%;
+    /* opacity: 0.5; */
+}
+ </style>
+    </head>
+    <body>
+       <header>
+               
+        <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\home\home.html">Home</a>&nbsp &nbsp
+             
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\tovisit\tovisit.html">To Visit</a>&nbsp &nbsp
+           
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\contactus\contact.html">Contact us</a>&nbsp &nbsp
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\carreer\career.html">Career</a>
+            <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\login\login.html">Signin</a>&nbsp &nbsp
+            <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\signup\signup.html">Signup</a>&nbsp &nbsp
+             
+          <input type="text" placeholder="Search" class="searchtextbox"><button type="submit" class="searchbox">search</button>
+        </header>
+        <div class="d2">
+              
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\ala1.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\ala2.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\ala3.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\ala2.jpg">
+              
+        </div>
+              <div class=contentmanali>
+                  <h2>Alappuzha</h2>
+                <p>Alappuzha has always enjoyed an important place in the maritime history of Kerala. Today, it is famous for its boat races, backwater holidays, beaches, marine products and coir industry. Alappuzha Beach is a popular picnic spot. The pier, which extends out to the sea here, is over 137 years old. Entertainment facilities at the Vijaya Beach Park add to the attraction of the beach. There is also an old lighthouse nearby which greatly intrigues all visitors.
+                    The houseboats you find in the backwaters of Alappuzha are in fact a reworked version of the Kettuvallams of olden times. Kettuvallam is a Malayalam word, ‘Kettu’, refers to dwelling structures and ‘Vallom’ means boat. In the olden days, kettuvallam or boat with thatched roof that covers over wooden hulls was used to carry tons of rice and spices. 
+                </p>
+              <h2>Places</h2>
+                    <li> Alappuzha is a non-vegetarian’s paradise. Prawns, crabs, oysters, clams, lobsters and several varieties of sea fish besides Karimeen (Pearlspot) are available. From fancy restaurants to shacks selling fresh catch of the day, Alappuzha thrives with eating places to suit every budget.
+
+                    </li>
+                   <li> Houseboats are available at Thiruvananthapuram, Kollam, Kottayam, Allappuzha, Ernakulam, Thrissur and Kasaragod. </li>
+                    
+            </div>
+
+        
+          <script>
+             var indexValue = 0;
+             function slideShow()
+            {
+              setTimeout(slideShow, 2500);
+              var x;
+              const img = document.querySelectorAll("img");
+              for(x = 0; x < img.length; x++)
+              {
+                img[x].style.display = "none";
+              }
+              indexValue++;
+              if(indexValue > img.length){indexValue = 1}
+              img[indexValue -1].style.display = "block";
+            }
+            slideShow();
+        
+          </script>
+      
+      
+  
+    </body>
+</html>
+

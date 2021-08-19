@@ -1,0 +1,79 @@
+<html>
+    <head>
+    <title>Details</title>
+    <link rel="stylesheet" href="C:\Users\91998\OneDrive\Desktop\FrontEnd\css\index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+ <style>
+     li{
+         font-size: larger;
+     }
+     .homeimg
+{ 
+    padding-top: 1%;
+    padding-left: 10%;
+    position: unset;
+    height: 400;
+    width: 80%;
+    /* opacity: 0.5; */
+}
+ </style>
+    </head>
+    <body>
+       <header>
+               
+        <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\home\home.html">Home</a>&nbsp &nbsp
+             
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\tovisit\tovisit.html">To Visit</a>&nbsp &nbsp
+           
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\contactus\contact.html">Contact us</a>&nbsp &nbsp
+            <a href="C:\Users\91998\OneDrive\Desktop\FrontEnd\carreer\career.html">Career</a>
+            <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\login\login.html">Signin</a>&nbsp &nbsp
+            <a  href="C:\Users\91998\OneDrive\Desktop\FrontEnd\signup\signup.html">Signup</a>&nbsp &nbsp
+             
+          <input type="text" placeholder="Search" class="searchtextbox"><button type="submit" class="searchbox">search</button>
+        </header>
+        <div class="d2">
+              
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\kadi1.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\kodi2.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\kodai3.jpg">
+              <img class="homeimg" src="C:\Users\91998\OneDrive\Desktop\FrontEnd\image\kodi2.jpg">
+              
+        </div>
+              <div class=contentmanali>
+                  <h2>Kodaikanal</h2>
+                <p>
+                    The perfect summer getaway, the scenic hill stations is located near Madurai and is a haven for tourists looking to indulge in some natural beauty and escape the scorching heat of the other cities. Kodaikanal is also necessary see attractions in Tamil Nadu that is ideal for family, groups of friends and honeymoon couples. An itinerary of two nights is enough to completely check out Kodaikanal and still have time to yourself.
+
+The best time to visit Kodaikanal is between the months of September and May, where the place becomes more idyllic in terms of beauty. The place is known to offer some of the most intriguing views and attractions like Pillar Rocks, Silver Cascade waterfalls, Guna Caves (a deadly cave that shot to fame after a Tamil movie called Guna was filmed here) and more. The best part about Kodaikanal is that it is not as much commercialized like Ooty and serenity of the place is still retained to major extents. Tamil Nadu a beautiful destination to explore our past cultural heritage with all the amenities of the present.
+                </p>
+              
+
+        
+          <script>
+             var indexValue = 0;
+             function slideShow()
+            {
+              setTimeout(slideShow, 2500);
+              var x;
+              const img = document.querySelectorAll("img");
+              for(x = 0; x < img.length; x++)
+              {
+                img[x].style.display = "none";
+              }
+              indexValue++;
+              if(indexValue > img.length){indexValue = 1}
+              img[indexValue -1].style.display = "block";
+            }
+            slideShow();
+        
+          </script>
+      
+      
+  
+    </body>
+</html>
+
+
